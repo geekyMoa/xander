@@ -1,0 +1,41 @@
+.Header {
+  background: white url('http://img.photobucket.com/albums/v471/voldeobum/horses/Xander%202017/Screen%20Shot%202017-09-05%20at%2011.05.52.png') center -50px no-repeat;
+  background-size: cover;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  @media all and (min-width: 600px) {
+    min-height: 400px;
+    background-position: center center;
+  }
+
+  @media all and (min-width: 1400px) {
+    min-height: 500px;
+    background-position: center -200px;
+  }
+
+  @media all and (min-width: 2000px) {
+    background-position: center -400px;
+  }
+}
+
+.Header-wrapper {
+  @extend .Site-wrapper;
+  background-color: rgba(255,255,255,.6);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Header-heading {
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
+  color: deeppink;
+}
+
+.Header-tagline {
+  font-size: 20px;
+}

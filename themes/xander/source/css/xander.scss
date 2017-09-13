@@ -1,3 +1,6 @@
-body {
-  background: hotpink;
-}
+@import 'themes/xander/source/css/partials/normalize';
+@import 'themes/xander/source/css/partials/base';
+@import 'themes/xander/source/css/partials/site';
+@import 'themes/xander/source/css/partials/typography';
+@import 'themes/xander/source/css/partials/header';
+@import 'themes/xander/source/css/partials/footer';

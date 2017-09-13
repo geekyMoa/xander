@@ -3,14 +3,17 @@ doctype html
 html
   head
     title Balnecroft Xander
-    link(rel="stylesheet" href="/xander.css")
+    link(rel="stylesheet" href="/css/xander.css")
     meta(charset="utf-8")
     
   body
-    header
-      h1 Balnecroft Xander
-    div
+    header(class='Header')
+      div(class='Header-wrapper')
+        h1(class='Header-heading') Balnecroft Xander
+        div(class='Header-tagline') Welsh Cob
+      
+    div(class="Site-wrapper")
       block content
       
-    footer
-      p Ägare: Moa Nandorf
+    footer(class='Footer Site-wrapper')
+      
